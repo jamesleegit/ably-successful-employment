@@ -1,24 +1,15 @@
-# vue
+## 설치 및 실행방법
 
-## Project setup
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+cd vue
+npm i
+npm run start <- 로컬에서 개발모드로 실행
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 시현 페이지
+[http://](https://www.naver.com/)
 
-### Lints and fixes files
+## 이미지 설명
 ```
-npm run lint
+![제목 없음](https://user-images.githubusercontent.com/60353730/180895152-a6bfda1a-677f-4b89-998b-da71773bae2d.png)
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
