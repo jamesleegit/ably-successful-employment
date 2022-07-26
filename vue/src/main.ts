@@ -32,8 +32,6 @@ const router = createRouter({
 });
 
 router.beforeEach(async (to, from, next) => {
-  (<any>document).title = to.name;
-
   const proms = core.updateUser();
   
   if (to.matched.some((v) => v.meta.loginGuard)) {

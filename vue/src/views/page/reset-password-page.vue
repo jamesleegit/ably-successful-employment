@@ -3,6 +3,9 @@ import ResetPassword from '../common/reset-password.vue';
 
 export default {
     components: {ResetPassword},
+    mounted() {
+      document.title = `비밀번호 재설정`;
+    },
 }
 
 const login = async () => {

@@ -3,6 +3,9 @@ import api from '../../service/api.service.ts';
 import {setCookie, verifyEmail} from '../../lib/util.lib.ts';
 
 export default {
+  mounted() {
+    document.title = `로그인`;
+  },
   data() {
     return {
       email: '',

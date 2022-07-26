@@ -10,6 +10,9 @@
     export default {
         components: { Layout, ResetPassword },
         inject: ['core'],
+        mounted() {
+            document.title = `마이페이지`;
+        },
         watch: {
             '$route'(to, from) {
                 this.tabType = tabs.includes(to.query && to.query.tab) ? to.query.tab : 'profile';
